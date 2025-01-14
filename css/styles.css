@@ -79,17 +79,6 @@ img {
   padding-right: 15px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* ---------------------------- header ----------------------------*/
 
 .header {
@@ -227,6 +216,17 @@ img {
   color: var(--dark-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ---------------------------- team ----------------------------*/
 .team {
   background-color: var(--pale-bg-color);
@@ -268,6 +268,7 @@ img {
 .portfolio-list-content {
   padding: 32px 16px;
   border: 1px solid var(--pale-color);
+  border-top: none;
 }
 
 .portfolio-list-title {
