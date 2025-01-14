@@ -79,6 +79,17 @@ img {
   padding-right: 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ---------------------------- header ----------------------------*/
 
 .header {
@@ -162,14 +173,9 @@ img {
   background-color: var(--dark-color);
 }
 
-.hero-content {
-  max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .hero-title {
   margin-bottom: 48px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -214,17 +220,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 /* ---------------------------- team ----------------------------*/
