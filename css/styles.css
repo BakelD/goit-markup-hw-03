@@ -159,7 +159,6 @@ img {
 }
 
 .address-list-link {
-  font-weight: 500;
   color: var(--text-color);
 }
 
@@ -303,5 +302,6 @@ img {
 }
 
 .footer-text {
+  width: 264px;
   color: var(--pale-bg-color);
 }
